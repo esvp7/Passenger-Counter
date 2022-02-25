@@ -1,0 +1,85 @@
+:root {
+
+    --ff-secondary: 'Roboto-mono font', Roboto Mono;
+    --ff-tertiary:  'Reenie Beanie font', Reenie Beanie;
+}
+
+body {
+    background-image: url("station1.jpg");
+    background-size: cover;
+    font-family: var(--ff-tertiary);
+    letter-spacing: .3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9FF7FF;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: green;
+    font-weight: bold;
+    font-family: var(--ff-secondary);
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    width: 250px;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+button:hover {
+    color: #37E4F4;
+    border: 3px solid #37E4F4;
+}
+
+#increment-btn {
+    background: #A10EFF;
+}
+
+#decrease-btn {
+    background: #83F74C;
+}
+
+#decrease-btn:hover {
+    color: #0E641D;
+    border: 3px solid #0E641D;
+}
+
+#reset-btn {
+    background: #00FFD4;
+}
+
+#reset-btn:hover {
+    color: #008670;
+    border: 3px solid #008670;
+}
+
+#save-btn {
+    background: #FF1F9E;
+}
+
+#save-el {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #9FF7FF;
+    text-align: center;
+    letter-spacing: .2rem;
+    font-size: 2.5rem;
+}
